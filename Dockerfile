@@ -1,4 +1,4 @@
-FROM golang:latest
+FROM golang:latest@sha256:f38c7f7bbaca5d664e39cd982a1cb5b6f8e999244e9ddb6ec8ba098438b3f4da
 
 # Install tools required for project
 # Run `docker build --no-cache .` to update dependencies
