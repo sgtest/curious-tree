@@ -1,4 +1,4 @@
-FROM golang:latest AS build
+FROM golang:latest
 
 # Install tools required for project
 # Run `docker build --no-cache .` to update dependencies
